@@ -1,5 +1,7 @@
 body {
     background-color: pink;
+    font-family: arial;
+    font-size: 25x;
 }
 
 h1, h2, p {
