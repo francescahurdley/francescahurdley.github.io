@@ -3,6 +3,8 @@ body {
 }
 
 h1, h2, p {
-    color: green;
+    color: grey;
     font-family: cursive;
+    font-style: italic;
+    font-weight: bold; 
 }
