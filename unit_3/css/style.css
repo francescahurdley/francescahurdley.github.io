@@ -4,8 +4,10 @@ body {
 	color: #000
 }
 h2 {
-	font-style; italic;
+	font-weight: normal;
+	font-style: italic;
+
 }
-li {
+p, li {
 	text-align: left;
 }
