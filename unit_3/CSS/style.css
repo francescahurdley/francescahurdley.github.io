@@ -1,4 +1,16 @@
 body {
-	text-align; center; 
-	color; grey;
+    background-color: pink;
+}
+
+h1, h2, p {
+    color: grey;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold; 
+}
+ul {
+	color:grey;
+	font-family: cursive;
+    font-style: italic;
+    font-weight: bold; 
 }
