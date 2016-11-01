@@ -3,13 +3,12 @@ body {
 }
 h1 {
 	text-align: center;
-	color: #E5B7D7;
+	color: grey;
 }
 h2 {
 	font-weight: normal;
 	font-style: italic;
 	text-align: center;
-	color: #94B1B2;
 }
 p {
 	text-align: left;
