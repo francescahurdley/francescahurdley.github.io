@@ -1,7 +1,9 @@
 body {
-	text-align: center;
 	font-family: helvetica, sans-serif;
 	color: #000
+}
+h1 {
+	text-align: center;
 }
 h2 {
 	font-weight: normal;
