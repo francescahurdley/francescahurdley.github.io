@@ -1,7 +1,7 @@
 body {
+	background-image: url(images/background.jpg);
 	font-family: helvetica, sans-serif;
 	color: grey;
-
 }
 h1 {
 	text-align: center;
@@ -10,10 +10,6 @@ h2 {
 	font-weight: normal;
 	font-style: italic;
 	text-align: center;
-}
-img.center {
-    display: block;
-    margin: 0 auto;
 }
 p {
 	text-align: left;
