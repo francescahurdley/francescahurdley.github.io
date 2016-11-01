@@ -1,8 +1,8 @@
 body {
-    background-color: pink;
+    background-color: purple;
 }
 
-h1, h2, p {
+h1, p {
     color: grey;
     font-family: cursive;
     font-style: italic;
