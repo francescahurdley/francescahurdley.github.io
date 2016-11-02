@@ -1,10 +1,10 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background: url("background.jpg");
 	font-family: helvetica, sans-serif;
 	color: grey;
 }
 header {
-	color: #F1C2F7;
+	background: #F1C2F7;
 }
 h1 {
 	text-align: center;
@@ -22,4 +22,12 @@ li {
 }
 a {
 	color: green;
+}
+#splash {
+	background: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	height:80vh;
+	padding:10em 0 0;
 }
