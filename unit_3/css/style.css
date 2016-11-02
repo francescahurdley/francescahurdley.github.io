@@ -24,10 +24,11 @@ a {
 	color: green;
 }
 #splash {
-	background: url("../images/background.jpg");
+	background: url("../images/background_daisy.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
-	height:80vh;
+	height:70vh;
 	padding:10em 0 0;
+	color: white;
 }
