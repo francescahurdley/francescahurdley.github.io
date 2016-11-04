@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	font-family: helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
 	color: grey;
+	margin: 1.5em;
 }
 header {
 	background: #F1C2F7;
@@ -32,3 +35,4 @@ a {
 	padding:10em 0 0;
 	color: white;
 }
+
