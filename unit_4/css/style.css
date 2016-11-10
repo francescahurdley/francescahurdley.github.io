@@ -2,7 +2,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Slabo 27px', serif;
-	font-size: 18px;
 	color: grey;
 	margin: 1.5em;
 }
@@ -11,23 +10,29 @@ header {
 }
 h1 {
 	text-align: center;
+	font-size: 68px;
+	font-weight: bold;
 }
 h2 {
 	font-weight: normal;
 	font-style: italic;
 	text-align: center;
+	font-size: 24px;
 }
 p {
 	text-align: left;
+	font-size: 18px;
+	font-family: 
+
 }
 li {
 	text-align: left;
 }
 a {
-	color: green;
+	color: grey;
 }
 #splash {
-	background: url("../images/background_daisy.jpg");
+	background: url("../images/background_daisy copy.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
