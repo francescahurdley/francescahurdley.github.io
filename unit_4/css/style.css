@@ -2,8 +2,11 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Slabo 27px', serif;
-	color: grey;
-	margin: 1.5em;
+	color: rgba(0, 0, 0, .6);
+	font-size: 18px;
+}
+section {
+	padding:5em 0;
 }
 header {
 	background: #F1C2F7;
@@ -19,20 +22,11 @@ h2 {
 	text-align: center;
 	font-size: 24px;
 }
-p {
-	text-align: left;
-	font-size: 18px;
-	font-family: 
-
-}
-li {
-	text-align: left;
-}
 a {
-	color: grey;
+	color: inherit;
 }
 #splash {
-	background: url("../images/background_daisy copy.jpg");
+	background: url("../images/Background_daisy copy.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
@@ -40,4 +34,7 @@ a {
 	padding:10em 0 0;
 	color: white;
 }
-
+#products {
+	background:purple;
+	color:#fff;
+}
