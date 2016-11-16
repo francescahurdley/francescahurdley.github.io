@@ -2,20 +2,39 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Slabo 27px', serif;
-<<<<<<< Updated upstream
 	color: rgba(0, 0, 0, .6);
 	font-size: 18px;
 }
 section {
 	padding:5em 0;
-=======
 	color: grey;
 	margin: 1.5em;
 	font-weight: lighter;
->>>>>>> Stashed changes
 }
 header {
-	background: #F1C2F7;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+main {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+}
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
 h1 {
 	text-align: center;
@@ -35,7 +54,7 @@ a {
 	background: url("../images/Background_daisy copy.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position:center;
+	background-position: center;
 	height:70vh;
 	padding:10em 0 0;
 	color: white;
