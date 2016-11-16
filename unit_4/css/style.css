@@ -2,11 +2,17 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Slabo 27px', serif;
+<<<<<<< Updated upstream
 	color: rgba(0, 0, 0, .6);
 	font-size: 18px;
 }
 section {
 	padding:5em 0;
+=======
+	color: grey;
+	margin: 1.5em;
+	font-weight: lighter;
+>>>>>>> Stashed changes
 }
 header {
 	background: #F1C2F7;
