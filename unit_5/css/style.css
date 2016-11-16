@@ -6,10 +6,12 @@ body {
 	font-size: 18px;
 }
 section {
-	padding:5em 0;
+	padding: 20px;
 	color: grey;
+	background-color: #FFC675;
 	margin: 1.5em;
 	font-weight: lighter;
+	border: 1px black solid;
 }
 header {
 	background-color: #FFED74;
@@ -55,6 +57,7 @@ a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	width: 1080px;
 	height:70vh;
 	padding:10em 0 0;
 	color: white;
@@ -63,3 +66,7 @@ a {
 	background:purple;
 	color:#fff;
 }
+div {
+	width: 1080px;
+}
+
