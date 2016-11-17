@@ -8,7 +8,7 @@ body {
 section {
 	padding: 20px;
 	color: grey;
-	background-color: #FFC675;
+	background-color: #FFC675
 	margin: 1.5em;
 	font-weight: lighter;
 	border: 1px black solid;
@@ -51,6 +51,21 @@ h2 {
 }
 a {
 	color: inherit;
+	display: block;
+	text-decoration: none;
+	float: right;
+	padding: 20px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+a:hover {
+	color: green;
 }
 #splash {
 	background: url("../images/Background_daisy copy.jpg");
@@ -65,8 +80,5 @@ a {
 #products {
 	background:purple;
 	color:#fff;
-}
-div {
-	width: 1080px;
 }
 
