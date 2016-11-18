@@ -15,7 +15,9 @@ nav {
 .products p {
 	display: block;
 	float: left;
+	clear: both;
 }
+
 .maincontent {
 	padding: 20px;
 	color: grey;
@@ -81,6 +83,34 @@ a:hover {
 	width: 600px;
 	margin: auto;
 	padding: 3em;
+	display: block;
+	clear: both;
 }
-
+#two_column {
+	background-color: #FFb7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 25%;
+}
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 70%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:" ";
+	clear: both;
+	height: 0;
+}
 
