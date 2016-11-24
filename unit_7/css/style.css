@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'open-sans', sans-serif;
+	color: rgba(0, 0, 0, .7);
+	font-size: 18px;
+}
+header, h2 {
+	font-family:'Abhaya-libre', serif;
+	font-size: 1.2em;
+}
+header {
+	font-size: 2em;
+}
+ footer {
+ 	text-align: center;
+ 	border: .5px grey solid;
+ 	padding: 2em;
+ }
+ .introtext p {
+ 	padding: 1em;
+ }
+.introtext, p {
+	font-family: 'Abhaya-libre', serif;
+	font-size: 1.1em;
+}
+#lander {
+	background: url("../images/Background_daisy copy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:70vh;
+	color: rgba(0, 0, 0, 1);
+}
+.navlinks {
+	text-decoration: none;
+	margin: .5em;
+	border: none;
+	padding: 1em;
+	float: right;
+	color: rgba(0, 0, 0, .9);
+}
+.introtext {
+	padding: 6em;
+	width: 600px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+#products {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#left {
+    background-color: white;
+    border: none;
+    padding: 20px;
+    float: left;
+    width: 45%;
+    margin: 1em;
+}
+
+#right {
+    background-color: white;
+    border: none;
+    padding: 20px;
+    float: right;
+    width: 45%;
+    margin: 1em;
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#ourphilosophy {
+	text-align: center;
+	padding: 4em;
+	width: 50%;
+	margin: auto;
+}
+#specialoffer{
+	text-align: center;
+	 padding: 4em;
+	 width: 50%;
+	 margin: auto;
+}
+#press{ 
+	text-align: center;
+	padding: 4em;
+	width: 50%;
+	margin: auto;
+ }
+ #main p {
+ 	padding: 1em;
+ }
+
+
