@@ -43,21 +43,21 @@ header {
 }
 .introtext {
 	padding: 6em;
-	width: 600px;
+	width: 50%;
 	margin: auto;
 	display: block;
 	text-align: center;
 }
 #products {
     background-color: white;
-    padding: 20px;
+    padding: 3%;
     text-align: center;
 }
 
 #left {
     background-color: white;
     border: none;
-    padding: 20px;
+    padding: 5%;
     float: left;
     width: 45%;
     margin: 1em;
@@ -66,7 +66,7 @@ header {
 #right {
     background-color: white;
     border: none;
-    padding: 20px;
+    padding: 5%;
     float: right;
     width: 45%;
     margin: 1em;
