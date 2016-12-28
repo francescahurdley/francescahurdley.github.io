@@ -40,17 +40,25 @@ footer a {
  	color: rgba(0, 0, 0, .9);
  	margin: 0 .5em .5em 0;
  }
-.introtext {
-	font-family: 'Abhaya-libre', serif;
-	font-size: 1.1em;
-}
 #lander {
 	background: url("../images/thankyoucard.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height:70vh;
+	height:100vh;
 	color: rgba(0, 0, 0, 1);
+}
+#lander h1 {
+	font-size: 1em;
+	padding: 1em;
+	font-weight: normal;
+}
+#lander a {
+	text-decoration: none;
+	padding: .4em;
+	color: white;
+	background-color: rgba(0, 0, 0, .9);
+	font-family: 'open-sans', sans-serif;
 }
 .logo {
 	font-family: 'Abhaya-libre', serif;
@@ -60,8 +68,10 @@ footer a {
 	float: left;
 }
 .introtext {
-	padding: 6em;
-	width: 45em;
+	font-family: 'Abhaya-libre', serif;
+	font-size: 1.1em;
+	padding: 9em 6em 6em 6em;
+	width: 30em;
 	font-size: 1.2em;
 	display: block;
 	text-align: center;
@@ -94,14 +104,13 @@ footer a {
 	width: 100%;
 }
 .products p {
-	line-height: 120%;
 	width: 50%;
 	margin: auto;
 	text-align: center;
-	border: .8px solid;
+	text-decoration: none;
+	color: white;
 	padding: .2em;
-	text-transform: capitalize;
-	background-color: rgba(255, 241, 239, 1);
+	background-color: rgba(0, 0, 0, .9);
 }
 .middlesection {
 	width: 46%;
