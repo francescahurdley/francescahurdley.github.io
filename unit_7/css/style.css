@@ -6,22 +6,24 @@ body {
 	color: rgba(0, 0, 0, .9);
 	font-size: 18px;
 }
-header, h2 {
+h2 {
 	font-family:'Abhaya-libre', serif;
 	font-size: 1.2em;
 }
-header {
-	font-size: 2em;
+footer {
+	text-align: center;
+ 	padding: 1em;
+ 	line-height: 120%;
+ 	background-color: rgba(255, 241, 239, 1);
 }
- footer {
- 	text-align: center;
- 	border: .5px grey solid;
- 	padding: 2em;
+footer a {
+ 	text-decoration: none;
+ 	color: rgba(0, 0, 0, .9);
+ 	margin: 0 .5em .5em 0;
  }
 .introtext {
 	font-family: 'Abhaya-libre', serif;
 	font-size: 1.1em;
-
 }
 #lander {
 	background: url("../images/thankyoucard.jpg");
@@ -33,19 +35,35 @@ header {
 }
 .navlinks {
 	text-decoration: none;
-	margin: .5em;
+	font-family: 'Abhaya-libre', serif;
+	font-size: 1.1em;
+	margin: .5em 2em 0 0;
 	border: none;
-	padding: 1em;
+	padding: .5em;
 	float: right;
 	color: rgba(0, 0, 0, .9);
 }
+.logo {
+	font-family: 'Abhaya-libre', serif;
+	font-size: 2em;
+	padding:.3em;
+	margin-left: 1em;
+}
 .introtext {
 	padding: 6em;
-	width: 50%;
-	margin: auto;
+	width: 60%;
+	font-size: 1.2em;
 	display: block;
 	text-align: center;
+	float: right;
 }
+.introtext p {
+	font-family:'open-sans', sans-serif;
+	color: rgba(0, 0, 0, .8);
+	font-size: 0.9em;
+	padding: 1em;
+	line-height: 150%;
+
 }
 .clearfix:after {
     visibility: hidden;
@@ -59,17 +77,36 @@ header {
 	width: 640px;
 	display: block;
 	float: left;
-	text-align: center;
-	margin: 0 auto 5em auto;
+	margin: 0 auto 1em auto;
 }
 .products img {
 	display: block;
 	margin: 2em auto 1em;
 }
-#ourphilosophy {
-	margin: 2em auto 2em auto;
-	width: 50%;
-	padding: 2em;
+.products p {
+	line-height: 120%;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	border: .8px solid;
+	padding: .2em;
+	text-transform: capitalize;
+	background-color: rgba(255, 241, 239, 1);
+}
+.middlesection {
+	width: 46%;
+	display: block;
+	float: left;
+	margin: 1em 1em 1em 1em;
+	padding: 1em;
+	background-color: rgba(255, 241, 239, 1);
+}
+.middlesection h2 {
+	padding: 0 0 1em 0;
+	font-weight: bold;
+}
+.middlesection p{
+	line-height: 120%;
 }
 #specialoffer{
 	background: url("../images/welcome.jpg");
@@ -77,6 +114,7 @@ header {
 	background-position: left;
 	margin: 0 auto 0 auto;
 	padding: 2em;
+	line-height: 120%;
 }
 #press{ 
 	text-align: center;
@@ -96,9 +134,21 @@ header {
  }
  #specialoffer h2{
  	padding: 0 0 .5em 0;
+ 	font-weight: bold;
+ 	font-size: 1.5em;
  }
  #ourphilosophy h2{
  	padding: 0 0 .5em 0;
+ 	font-weight: bold;
+ 	font-size: 1.5em; 
+ }
+ #nav {
+ 	background: rgba(255, 241, 239, 1);
+ 	height: 10vh;
+ }
+ .wrapper {
+ 	width: 1024px;
+ 	margin: auto;
  }
 
 
