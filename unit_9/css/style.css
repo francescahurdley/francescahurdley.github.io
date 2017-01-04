@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'open-sans', sans-serif;
+	color: rgba(0, 0, 0, .9);
+	font-size: 18px;
+}
+h2 {
+	font-family:'Abhaya-libre', serif;
+	font-size: 1.5em;
+	text-align: center;
+	padding: .5em;
+
+}
+header {
+	background: rgba(255,255,255,.5);
+	position: absolute;
+	top:0;
+	width:100%;
+}
+nav {
+	float: right;
+}
+nav a {
+	display:inline-block;
+	text-decoration: none;
+	font-family: 'Abhaya-libre', serif;
+	font-size: 1.1em;
+	margin: .5em 2em 0 0;
+	border: none;
+	padding: .5em;
+	color: rgba(0, 0, 0, .9);
+}
+
+footer {
+	text-align: center;
+ 	padding: 1em;
+ 	line-height: 120%;
+ 	background-color: rgba(255, 241, 239, 1);
+}
+footer a {
+ 	text-decoration: none;
+ 	color: rgba(0, 0, 0, .9);
+ 	margin: 0 .5em .5em 0;
+ 	padding: 1em;
+ }
+ footer p {
+ 	padding: .2em;
+ }
+#lander {
+	background: url("../images/thankyoucard.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+	color: rgba(0, 0, 0, 1);
+}
+#lander h1 {
+	font-size: 1em;
+	padding: 1em;
+	font-weight: normal;
+}
+#lander a {
+	text-decoration: none;
+	padding: .4em;
+	color: white;
+	background-color: rgba(0, 0, 0, .9);
+	font-family: 'open-sans', sans-serif;
+}
+.logo {
+	font-family: 'Abhaya-libre', serif;
+	font-size: 2em;
+	padding:.3em;
+	margin-left: 1em;
+	float: left;
+}
+.introtext {
+	font-family: 'Abhaya-libre', serif;
+	font-size: 1.1em;
+	padding: 10em 6em 2em 6em;
+	width: 50%;
+	font-size: 1.2em;
+	display: inline-block;
+	text-align: center;
+	float: right;
+}
+.introtext p {
+	font-family:'open-sans', sans-serif;
+	color: rgba(0, 0, 0, .8);
+	font-size: 0.9em;
+	padding: 1em;
+	line-height: 150%;
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.products {
+	width: 33.33%;
+	float: left;
+	padding: 2em;
+	text-decoration: none;
+}
+.products img {
+	display: block;
+	margin: 1em auto 1em;
+	width: 100%;
+}
+.products p {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	color: white;
+	padding: 0 .2em;
+	background-color: rgba(0, 0, 0, .9);
+}
+.products h3 {
+	font-family: 'Abhaya-libre', serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: rgba(0, 0, 0, .9);
+}
+.middlesection {
+	width: 46%;
+	float: left;
+	margin: 1em 2%;
+	padding: 1em;
+	background-color: rgba(255, 241, 239, 1);
+}
+
+.middlesection h3 {
+	padding: 0 0 1em 0;
+	font-weight: bold;
+}
+.middlesection p {
+	line-height: 120%;
+	font-size: 1em;
+}
+#reviewdescription {
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	padding: 1em;
+}
+.name {
+	padding:.4 0 0 0em;
+	text-align: right;
+	font-family: 'Abhaya-libre', serif;
+}
+
+#specialoffer {
+	background: url("../images/welcome.jpg");
+	background-size: cover;
+	background-position: left;
+	margin: 0 auto 0 auto;
+	padding: 2em;
+	line-height: 120%;
+}
+#press { 
+	text-align: center;
+	padding: 4em;
+	width: 50%;
+	margin: auto;
+ }
+ #main h2 {
+ 	text-align: center;
+}
+ .specialoffertext {
+ 	width: 50%;
+ 	text-align: left;
+ 	margin: auto;
+ 	background: rgba(254, 253, 249, .8);
+ 	padding: 1em;
+ }
+ .wrapper {
+ 	max-width: 90%;
+ 	margin: auto;
+ }
+ @media only screen and (max-width: 800px) {
+ 	.middlesection {
+ 		float: none;
+ 		width: auto;
+ 	}
+}
+@media only screen and (max-width: 750px) {
+	nav {
+		float: none;
+		display: block;
+		width: auto;
+		text-align: center;
+	}
+	nav a {
+		display: block;
+	}
+	header {
+		position: relative;
+		background-color: rgba(255, 241, 239, 1);
+	}
+	.logo {
+		float: none;
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 750px) {
+	.products {
+		float: none;
+		width: auto;
+		display: block;
+	}
+}
+ @media only screen and (max-width: 1080px) {
+ 	.introtext {
+ 		float: none;
+ 		display: block;
+ 		width: auto;
+ 		padding: 10em 0 0 0;
+ 	}
+ }
+ @media only screen and (max-width: 750px) {
+ 	.introtext {
+ 		font-size: 1em;
+ 	}
+ }
+ @media only screen and (max-width: 750px) {
+ 	.specialoffertext {
+ 		width: auto;
+ 	}
+
+
+
+
+
