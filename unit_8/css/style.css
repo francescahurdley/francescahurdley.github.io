@@ -194,11 +194,11 @@ footer a {
 	nav {
 		float: none;
 		display: block;
-		width: auto;
-		text-align: center;
 	}
 	nav a {
 		display: block;
+		margin: auto;
+		text-align: center;
 	}
 	header {
 		position: relative;
