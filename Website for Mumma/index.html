@@ -1,38 +1,25 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<title>Melanie Hurdley</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<div id=lander> 
-			<nav>
-				<a class=navlinks href="#"> Services</a>
-				<a class=navlinks href="#"> Experience</a>
-				<a class=navlinks href="#"> Contact</a>	
-			</nav>
-				<div id=introtext>
-					<h1>Melanie Hurdley</h1>
-					<h2>Legal Services</h2>	
-					<img src="images/Mummy.jpg" alt="Melanie Hurdley Photo" title="photo of melanie">
-					<p>Lorem ipsum dolor sit amet, ut qui quem vide, ut sea equidem meliore periculis. Tollit adipisci pertinax ut eum, ut viris choro numquam qui, mei at omnium accusam suscipit. Ei putant molestiae voluptatum pro.</p>
-				</div>
-		</div>		
-		<main>
-			<div id=services>
-				<h2>Services</h2>
-				<p>Lorem ipsum dolor sit amet, ut qui quem vide, ut sea equidem meliore periculis. Tollit adipisci pertinax ut eum, ut viris choro numquam qui, mei at omnium accusam suscipit. Ei putant molestiae voluptatum pro.</p>
-			</div>
-			<div id=experience>
-				<h2>Previous Experience</h2>
-				<p>Lorem ipsum dolor sit amet, ut qui quem vide, ut sea equidem meliore periculis. Tollit adipisci pertinax ut eum, ut viris choro numquam qui, mei at omnium accusam suscipit. Ei putant molestiae voluptatum pro.</p>	
-			</div>
-			<div id=contact>
-				<h2>Contact Us</h2>
-			</div>
-		</main>	
-		<footer>Melanie Hurdley is a company registered in England & Wales</footer>		
-	</body>
+
+	<header>Hello my name is Francesca Hurdley</header>
+
+	<script type="text/javascript" src="https://cdn.rawgit.com/alexgibson/shake.js/master/shake.js"></script>
+<script>  
+    //listen to shake event
+    var shakeEvent = new Shake({threshold: 15});
+    shakeEvent.start();
+    window.addEventListener('shake', function(){
+        alert("Shaked");
+    }, false);
+
+    //stop listening
+    function stopShake(){
+        shakeEvent.stop();
+    }
+
+    //check if shake is supported or not.
+    if(!("ondevicemotion" in window)){alert("Not Supported");}
+</script>
+
+
 	</html>	
 
