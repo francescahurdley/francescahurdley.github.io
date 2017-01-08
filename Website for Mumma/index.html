@@ -1,25 +1,24 @@
-<!DOCTYPE html>
-
-	<header>Hello my name is Francesca Hurdley</header>
-
-	<script type="text/javascript" src="https://cdn.rawgit.com/alexgibson/shake.js/master/shake.js"></script>
-<script>  
-    //listen to shake event
-    var shakeEvent = new Shake({threshold: 15});
-    shakeEvent.start();
-    window.addEventListener('shake', function(){
-        alert("Shaked");
-    }, false);
-
-    //stop listening
-    function stopShake(){
-        shakeEvent.stop();
-    }
-
-    //check if shake is supported or not.
-    if(!("ondevicemotion" in window)){alert("Not Supported");}
+	<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").hide();
+    });
+});
 </script>
+</head>
+<body>
 
+<h2>This is a heading</h2>
 
-	</html>	
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<button>Click me</button>
+
+</body>
+</html>
 

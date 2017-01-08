@@ -15,7 +15,7 @@ h2 {
 }
 header {
 	background: rgba(255,255,255,.5);
-	position: absolute;
+	position: fixed;
 	top:0;
 	width:100%;
 }
